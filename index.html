@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zahid Rashid Sheikh — Ph.D. Scholar, Michigan State University</title>
+<meta name="description" content="Zahid Rashid Sheikh: speech-based Alzheimer's detection, edge AI and hardware–software co-design, and analog/RF IC design at Michigan State University.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script>
+/* =====================================================================
+   YOUR INFORMATION — edit here, nothing below needs to change.
+   • Put paper PDFs in the "papers" folder, then add  pdf: "papers/file.pdf"
+   • Put your CV (cv.pdf) and photo (photo.jpg) in the "files" folder.
+   • Once a paper's code is on GitHub, add  code: "https://github.com/..."
+   • Add  doi: "10.xxxx/xxxx"  to any paper to show a DOI button.
+   ===================================================================== */
+const GITHUB = "YOUR_GITHUB_USERNAME";   // ← change to your GitHub username
+
+const SITE = {
+  name: "Zahid Rashid Sheikh",
+  me: "Z. R. Sheikh",
+  role: "Ph.D. Scholar, Electrical & Computer Engineering",
+  affiliation: "Michigan State University, East Lansing, MI",
+  photo: "",                   // e.g. "files/photo.jpg"
+  bio: "I build AI that detects early signs of Alzheimer’s disease from everyday speech, and the hardware that lets it run privately on small, low-power devices such as FPGAs and embedded GPUs instead of the cloud. Before Michigan State, I designed analog and RF circuits (VCOs, charge pumps and PLLs in 28 nm CMOS) as a Junior Research Fellow at IIT Ropar.",
+
+  links: [
+    { label: "Google Scholar", url: "https://scholar.google.com/citations?user=aw25u4cAAAAJ&hl=en" },
+    { label: "LinkedIn",       url: "https://www.linkedin.com/in/zahid-rashid-sheikh04/" },
+    { label: "ORCID",          url: "" },   // paste e.g. "https://orcid.org/0000-0000-0000-0000"
+    { label: "Web of Science", url: "" },   // paste your Web of Science profile link
+    { label: "GitHub",         url: "https://github.com/" + GITHUB },
+    { label: "CV (PDF)",       url: "files/cv.pdf" },
+    { label: "Email",          url: "mailto:sheikhz3@msu.edu" }
+  ],
+
+  interests: [
+    "Speech biomarkers for Alzheimer’s disease",
+    "Cognitive assessment from speech",
+    "Edge AI & hardware–software co-design",
+    "Privacy-preserving on-device ML",
+    "FPGA / embedded accelerators for deep learning",
+    "Analog & RF integrated circuits"
+  ],
+
+  updates: [
+    { date: "2026", text: "Paper on an FPGA-accelerated audio CNN for Alzheimer’s detection published at IEEE MWSCAS 2026." },
+    { date: "2026", text: "Paper on voice biomarkers for Alzheimer’s detection published at Speech Prosody 2026." },
+    { date: "2026", text: "Journal articles published in IEEE Transactions on AgriFood Electronics and Sensors." },
+    { date: "Spring 2026", text: "Received the Open Scholarship Fellowship, Michigan State University." },
+    { date: "2025", text: "U.S. patent application filed for an LC voltage-controlled oscillator." },
+    { date: "Jan 2025", text: "Started my Ph.D. in Electrical & Computer Engineering at Michigan State University." }
+  ],
+
+  publications: [
+    {
+      year: 2026,
+      title: "An FPGA-Accelerated Audio CNN for Alzheimer’s Disease Detection Using Hardware–Software Co-Design",
+      authors: ["Z. R. Sheikh", "N. Yazdi"],
+      venue: "IEEE 69th International Midwest Symposium on Circuits and Systems (MWSCAS), 2026",
+      bibtex: "@inproceedings{sheikh2026fpga,\n  title     = {An FPGA-Accelerated Audio CNN for Alzheimer's Disease Detection Using Hardware--Software Co-Design},\n  author    = {Sheikh, Zahid Rashid and Yazdi, N.},\n  booktitle = {IEEE 69th International Midwest Symposium on Circuits and Systems (MWSCAS)},\n  year      = {2026}\n}"
+    },
+    {
+      year: 2026,
+      title: "A Hybrid Deep Learning Framework for Alzheimer’s Detection Through Voice Biomarkers",
+      authors: ["Z. R. Sheikh", "A. Irfan", "N. Yazdi"],
+      venue: "Speech Prosody 2026, pp. 867–871",
+      bibtex: "@inproceedings{sheikh2026hybrid,\n  title     = {A Hybrid Deep Learning Framework for Alzheimer's Detection Through Voice Biomarkers},\n  author    = {Sheikh, Zahid Rashid and Irfan, A. and Yazdi, N.},\n  booktitle = {Speech Prosody 2026},\n  pages     = {867--871},\n  year      = {2026}\n}"
+    },
+    {
+      year: 2026,
+      title: "Deep Learning-Based Image Analysis for Automated Fruit Sizing",
+      authors: ["E. Z. E. Butsana", "Z. R. Sheikh", "N. Yazdi"],
+      venue: "IEEE Transactions on AgriFood Electronics, 2026",
+      bibtex: "@article{butsana2026fruit,\n  title   = {Deep Learning-Based Image Analysis for Automated Fruit Sizing},\n  author  = {Butsana, E. Z. E. and Sheikh, Zahid Rashid and Yazdi, N.},\n  journal = {IEEE Transactions on AgriFood Electronics},\n  year    = {2026}\n}"
+    },
+    {
+      year: 2026,
+      title: "Review and Analysis of Electrochemical Instrumentation Design for Continuous Multi-Analyte Microfluidic Sensor Arrays",
+      authors: ["S. Lobert", "Z. R. Sheikh", "N. Yazdi", "D. Goderis", "A. J. Mason"],
+      venue: "Sensors, vol. 26, no. 17, art. 5334, 2026",
+      bibtex: "@article{lobert2026review,\n  title   = {Review and Analysis of Electrochemical Instrumentation Design for Continuous Multi-Analyte Microfluidic Sensor Arrays},\n  author  = {Lobert, S. and Sheikh, Zahid Rashid and Yazdi, N. and Goderis, D. and Mason, A. J.},\n  journal = {Sensors},\n  volume  = {26},\n  number  = {17},\n  pages   = {5334},\n  year    = {2026}\n}"
+    },
+    {
+      year: 2024,
+      title: "A 5.4 mW 12 GHz Quadrature VCO Using Current Reusing Technique in 28 nm CMOS Technology",
+      authors: ["Z. R. Sheikh", "T. Kaur", "M. Sakare", "H. Shrimali", "R. Nagulapalli"],
+      venue: "IEEE International Conference on Computing, Communication & Networking Technologies (ICCCNT), IIT Mandi, 2024",
+      bibtex: "@inproceedings{sheikh2024qvco,\n  title     = {A 5.4 mW 12 GHz Quadrature VCO Using Current Reusing Technique in 28 nm CMOS Technology},\n  author    = {Sheikh, Zahid Rashid and Kaur, T. and Sakare, M. and Shrimali, H. and Nagulapalli, R.},\n  booktitle = {IEEE International Conference on Computing, Communication and Networking Technologies (ICCCNT)},\n  year      = {2024}\n}"
+    },
+    {
+      year: 2024,
+      title: "A Noise and Mismatch Improved Charge Pump for PLL in 28 nm CMOS Technology",
+      authors: ["H. Mehra", "M. K. Singh", "Z. R. Sheikh", "R. Nagulapalli", "M. Sakare"],
+      venue: "IEEE International Conference on IC, Communication & Computing Systems (ICIC3S), Una, 2024",
+      bibtex: "@inproceedings{mehra2024chargepump,\n  title     = {A Noise and Mismatch Improved Charge Pump for PLL in 28 nm CMOS Technology},\n  author    = {Mehra, H. and Singh, M. K. and Sheikh, Zahid Rashid and Nagulapalli, R. and Sakare, M.},\n  booktitle = {IEEE International Conference on IC, Communication and Computing Systems (ICIC3S)},\n  year      = {2024}\n}"
+    }
+  ],
+
+  underReview: [
+    {
+      title: "Edge AI for Speech-Based Alzheimer’s Disease Detection: A Cross-Platform Hardware–Software Co-Design Using Speech Biomarkers",
+      authors: ["Z. R. Sheikh", "E. Z. E. Butsana", "N. Yazdi"],
+      venue: "Biomedical Signal Processing and Control (under review), 2026"
+    },
+    {
+      title: "Privacy-Preserving Alzheimer’s Detection from Speech with Frozen Self-Supervised Representations and a Compact Edge-Deployable Classifier",
+      authors: ["Z. R. Sheikh", "N. Yazdi"],
+      venue: "Under review, 2026"
+    }
+  ],
+
+  patents: [
+    {
+      title: "Voltage-Controlled Oscillator (LC VCO) and Method of Operation Thereof",
+      authors: ["Z. R. Sheikh", "M. Sakare", "H. Shrimali", "R. Nagulapalli"],
+      venue: "U.S. Patent Application No. 18/828,782, 2025"
+    },
+    {
+      title: "A Voltage-Controlled Oscillator (LC VCO) and Method of Operation Thereof",
+      authors: ["Z. R. Sheikh", "M. Sakare", "H. Shrimali", "R. Nagulapalli"],
+      venue: "Indian Patent Application No. 202411032951, filed Apr. 24, 2024"
+    },
+    {
+      title: "High-Frequency Quadrature VCO Using the Current Reusing Technique",
+      authors: ["Z. R. Sheikh", "T. Kaur", "M. Sakare", "H. Shrimali", "R. Nagulapalli"],
+      venue: "Patent application filed Jul. 4, 2024"
+    }
+  ],
+
+  projects: [
+    {
+      title: "Edge AI for speech-based Alzheimer’s detection",
+      text: "A speech model that screens for Alzheimer’s disease and runs on low-power hardware. Quantized to INT8 and deployed on the Xilinx Kria KV260 FPGA (Vitis-AI) and NVIDIA Jetson (TensorRT), so recordings never have to leave the device.",
+      links: []   // e.g. [{ label: "Code", url: "https://github.com/..." }]
+    },
+    {
+      title: "Privacy-preserving cognitive assessment from speech",
+      text: "Frozen self-supervised speech representations paired with a compact classifier small enough for edge devices, plus interpretable multimodal features for MMSE score prediction.",
+      links: []
+    },
+    {
+      title: "FPGA acceleration of attention for speech transformers",
+      text: "A query-blocked FPGA design for dense attention that makes long-sequence speech transformers practical on embedded hardware.",
+      links: []
+    },
+    {
+      title: "Analog & RF circuit design",
+      text: "A 5.4 mW 12 GHz quadrature VCO in 28 nm CMOS; a 1.6 GHz PLL in 65 nm (Cadence); a StrongARM latch comparator for ADCs; on-chip inductor design with SKILL in Cadence Virtuoso; a 6T SRAM cell; and an 8-bit CMOS microprocessor datapath.",
+      links: []
+    }
+  ],
+
+  experience: [
+    { when: "2025 – present", what: "Ph.D., Electrical & Computer Engineering · Graduate Research Assistant", where: "Michigan State University · GPA 4.00/4.00 · expected Dec 2028" },
+    { when: "2023 – 2025",    what: "Junior Research Fellow, Electrical Engineering", where: "Indian Institute of Technology (IIT) Ropar" },
+    { when: "2022 – 2023",    what: "Analog Design Engineer", where: "Chipex Technologies" },
+    { when: "2021 – 2023",    what: "M.Tech., Electronic Circuits & System Design", where: "Aligarh Muslim University · thesis on charge pumps for PLLs" },
+    { when: "2017 – 2021",    what: "B.Tech., Electronics & Communication Engineering", where: "Aligarh Muslim University" }
+  ],
+
+  awards: [
+    "Open Scholarship Fellowship, Michigan State University (Spring 2026)",
+    "Fully funded bachelor’s degree under the Prime Minister’s Special Scholarship Scheme (PMSSS)",
+    "NASA Open Science 101 certification",
+    "College Ambassador, SOCH (education for children in under-resourced communities)"
+  ]
+};
+</script>
+
+<style>
+  :root{
+    --paper:#FAFBFC; --ink:#18202E; --muted:#5A6577; --rule:#DCE1E8;
+    --accent:#24478F; --accent-soft:#E7EDF8; --code:#F1F3F7;
+    --serif:"Newsreader", Georgia, "Times New Roman", serif;
+    --sans:"Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --margin:11rem; --measure:40rem;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --paper:#141922; --ink:#E6E9EF; --muted:#9AA4B5; --rule:#2B3341;
+      --accent:#9DB6EC; --accent-soft:#1F2A40; --code:#1B2230; }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+  @media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto} }
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font:400 1.125rem/1.62 var(--serif);font-optical-sizing:auto}
+  a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:.18em}
+  a:hover{text-decoration-thickness:2px}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+  .skip{position:absolute;left:-999px}
+  .skip:focus{left:1rem;top:1rem;background:var(--paper);padding:.5rem 1rem;z-index:10}
+
+  .page{max-width:calc(var(--margin) + var(--measure) + 4rem);margin:0 auto;padding:0 1.5rem}
+
+  .bar{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;
+    padding:1.25rem 0;font:500 .875rem/1.4 var(--sans);border-bottom:1px solid var(--rule)}
+  .bar .who{color:var(--ink);text-decoration:none;font-weight:600}
+  .bar nav{display:flex;gap:1.25rem;flex-wrap:wrap}
+  .bar nav a{color:var(--muted);text-decoration:none}
+  .bar nav a:hover{color:var(--accent)}
+
+  .hero{display:grid;grid-template-columns:var(--margin) minmax(0,var(--measure));
+    column-gap:2rem;padding:4.5rem 0 3.5rem}
+  .portrait{width:8.5rem;height:8.5rem;border-radius:50%;object-fit:cover;
+    background:var(--accent-soft);color:var(--accent);display:grid;place-items:center;
+    font:500 2.4rem/1 var(--serif);letter-spacing:.02em;margin-top:.6rem}
+  .hero h1{font-weight:500;font-size:clamp(2.5rem,5.6vw,4rem);line-height:1.04;
+    letter-spacing:-.02em;margin:0 0 1rem}
+  .hero .role{font:500 1.05rem/1.4 var(--sans);margin:0}
+  .hero .aff{font:400 1rem/1.4 var(--sans);color:var(--muted);margin:.2rem 0 1.5rem}
+  .hero .bio{margin:0 0 1.75rem;max-width:37rem;font-size:1.2rem}
+  .links{display:flex;flex-wrap:wrap;gap:.5rem;margin:0;padding:0;list-style:none}
+  .links a{display:inline-block;font:500 .875rem/1 var(--sans);padding:.6rem .85rem;
+    border:1px solid var(--rule);border-radius:999px;text-decoration:none;color:var(--ink)}
+  .links a:hover{border-color:var(--accent);color:var(--accent)}
+
+  section{display:grid;grid-template-columns:var(--margin) minmax(0,var(--measure));
+    column-gap:2rem;padding:2.75rem 0;border-top:1px solid var(--rule)}
+  section > h2{font:600 .95rem/1.5 var(--sans);margin:.3rem 0 1rem;color:var(--muted)}
+  section > .body{min-width:0}
+  .body > h3.sub{font:600 .95rem/1.5 var(--sans);color:var(--muted);margin:2.25rem 0 1rem}
+
+  .interests{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:.4rem .5rem}
+  .interests li{background:var(--accent-soft);color:var(--accent);font:500 .9rem/1.2 var(--sans);
+    padding:.5rem .75rem;border-radius:6px}
+
+  .dated{margin:0;padding:0;list-style:none}
+  .dated li{display:grid;grid-template-columns:6.5rem 1fr;gap:1rem;padding:.4rem 0}
+  .dated .when{font:500 .875rem/1.9 var(--sans);color:var(--muted);font-variant-numeric:tabular-nums}
+  .dated .where{display:block;color:var(--muted);font-size:1rem}
+
+  .year{display:grid;grid-template-columns:4rem 1fr;gap:1rem}
+  .year + .year{margin-top:1.75rem}
+  .year > h3{font:600 1.05rem/1.7 var(--sans);margin:0;color:var(--muted);font-variant-numeric:tabular-nums}
+  .pubs{margin:0;padding:0;list-style:none}
+  .pub + .pub{margin-top:1.4rem}
+  .pub .t{font-weight:500;font-size:1.2rem;line-height:1.35;margin:0}
+  .pub .a{margin:.2rem 0 0;color:var(--muted);font-size:1.02rem}
+  .pub .a b{color:var(--ink);font-weight:600}
+  .pub .v{margin:0;font-style:italic;font-size:1.02rem}
+  .actions{display:flex;flex-wrap:wrap;gap:.35rem;margin-top:.55rem}
+  .actions:empty{display:none}
+  .actions a,.actions button{font:500 .8rem/1 var(--sans);padding:.45rem .7rem;border-radius:6px;
+    border:1px solid var(--rule);background:transparent;color:var(--ink);text-decoration:none;cursor:pointer}
+  .actions a:hover,.actions button:hover{border-color:var(--accent);color:var(--accent)}
+  .actions button[aria-expanded="true"]{background:var(--accent);border-color:var(--accent);color:var(--paper)}
+  .bib{display:grid;grid-template-rows:0fr;transition:grid-template-rows .25s ease}
+  .bib.open{grid-template-rows:1fr}
+  .bib > div{overflow:hidden}
+  .bib pre{margin:.7rem 0 0;padding:1rem;background:var(--code);border-radius:8px;
+    font:400 .8rem/1.55 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;overflow-x:auto;white-space:pre}
+
+  .projects{margin:0;padding:0;list-style:none}
+  .project + .project{margin-top:1.6rem;padding-top:1.6rem;border-top:1px dashed var(--rule)}
+  .project h3{font-weight:500;font-size:1.3rem;margin:0 0 .3rem}
+  .project p{margin:0}
+
+  .plain{margin:0;padding-left:1.1rem}
+  .plain li + li{margin-top:.35rem}
+
+  footer{border-top:1px solid var(--rule);padding:2rem 0 3rem;font:400 .875rem/1.5 var(--sans);color:var(--muted)}
+
+  @media (max-width: 760px){
+    .hero, section{grid-template-columns:1fr}
+    .hero{padding:2.5rem 0}
+    .portrait{width:6rem;height:6rem;font-size:1.8rem;margin:0 0 1.5rem}
+    section > h2{margin-bottom:1.25rem}
+    .bar{flex-direction:column;gap:.5rem}
+    .bar nav{gap:.9rem}
+    .year{grid-template-columns:1fr;gap:.25rem}
+    .dated li{grid-template-columns:1fr;gap:0}
+  }
+  @media (prefers-reduced-motion: reduce){ .bib{transition:none} }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="page">
+  <header class="bar">
+    <a class="who" href="#" id="bar-name"></a>
+    <nav aria-label="Sections">
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div class="hero">
+      <div id="portrait"></div>
+      <div>
+        <h1 id="name"></h1>
+        <p class="role" id="role"></p>
+        <p class="aff" id="aff"></p>
+        <p class="bio" id="bio"></p>
+        <ul class="links" id="links"></ul>
+      </div>
+    </div>
+
+    <section id="research">
+      <h2>Research interests</h2>
+      <div class="body"><ul class="interests" id="interests"></ul></div>
+    </section>
+
+    <section id="news">
+      <h2>Recent updates</h2>
+      <div class="body"><ul class="dated" id="updates"></ul></div>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <div class="body">
+        <div id="pubs"></div>
+        <h3 class="sub">Under review</h3>
+        <ul class="pubs" id="review"></ul>
+        <h3 class="sub">Patents</h3>
+        <ul class="pubs" id="patents"></ul>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="body"><ul class="projects" id="project-list"></ul></div>
+    </section>
+
+    <section id="experience">
+      <h2>Education &amp; experience</h2>
+      <div class="body"><ul class="dated" id="exp"></ul></div>
+    </section>
+
+    <section id="awards">
+      <h2>Awards &amp; honors</h2>
+      <div class="body"><ul class="plain" id="award-list"></ul></div>
+    </section>
+  </main>
+
+  <footer id="contact"></footer>
+</div>
+
+<script>
+(function(){
+  const $ = id => document.getElementById(id);
+  const el = (tag, props = {}, ...kids) => {
+    const n = document.createElement(tag);
+    Object.entries(props).forEach(([k, v]) => {
+      if (k === "class") n.className = v; else n.setAttribute(k, v);
+    });
+    kids.flat().forEach(k => k != null && k !== "" && n.append(k));
+    return n;
+  };
+  const ext = url => /^https?:/.test(url) ? { target: "_blank", rel: "noopener" } : {};
+  const linkEl = (label, url) => el("a", Object.assign({ href: url }, ext(url)), label);
+  const scholarSearch = t => "https://scholar.google.com/scholar?q=" + encodeURIComponent('"' + t.replace(/[’]/g, "'") + '"');
+
+  $("bar-name").textContent = SITE.name;
+  $("name").textContent = SITE.name;
+  $("role").textContent = SITE.role;
+  $("aff").textContent = SITE.affiliation;
+  $("bio").textContent = SITE.bio;
+
+  const parts = SITE.name.split(/\s+/);
+  const initials = (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
+  $("portrait").append(SITE.photo
+    ? el("img", { class: "portrait", src: SITE.photo, alt: "Portrait of " + SITE.name })
+    : el("div", { class: "portrait", "aria-hidden": "true" }, initials));
+
+  SITE.links.filter(l => l.url).forEach(l => $("links").append(el("li", {}, linkEl(l.label, l.url))));
+  SITE.interests.forEach(i => $("interests").append(el("li", {}, i)));
+  SITE.updates.forEach(u => $("updates").append(el("li", {}, el("span", { class: "when" }, u.date), el("span", {}, u.text))));
+
+  function pubItem(p, id) {
+    const authors = el("p", { class: "a" });
+    p.authors.forEach((a, j) => {
+      authors.append(a === SITE.me ? el("b", {}, a) : a);
+      if (j < p.authors.length - 1) authors.append(", ");
+    });
+    const actions = el("div", { class: "actions" });
+    if (p.pdf) actions.append(linkEl("PDF", p.pdf));
+    if (p.code) actions.append(linkEl("Code", p.code));
+    if (p.doi) actions.append(linkEl("DOI", "https://doi.org/" + p.doi));
+    else if (p.findable !== false) actions.append(linkEl("Find paper", scholarSearch(p.title)));
+    const item = el("li", { class: "pub" }, el("p", { class: "t" }, p.title), authors, el("p", { class: "v" }, p.venue), actions);
+    if (p.bibtex) {
+      const btn = el("button", { type: "button", "aria-expanded": "false", "aria-controls": id }, "Cite");
+      const copy = el("button", { type: "button" }, "Copy BibTeX");
+      const box = el("div", { class: "bib", id }, el("div", {}, el("pre", {}, p.bibtex), el("div", { class: "actions" }, copy)));
+      box.inert = true;
+      btn.addEventListener("click", () => {
+        const open = box.classList.toggle("open");
+        btn.setAttribute("aria-expanded", open);
+        box.inert = !open;
+      });
+      copy.addEventListener("click", () => {
+        navigator.clipboard.writeText(p.bibtex).then(() => {
+          copy.textContent = "Copied";
+          setTimeout(() => (copy.textContent = "Copy BibTeX"), 1600);
+        });
+      });
+      actions.append(btn);
+      item.append(box);
+    }
+    return item;
+  }
+
+  const byYear = {};
+  SITE.publications.forEach(p => (byYear[p.year] = byYear[p.year] || []).push(p));
+  Object.keys(byYear).sort((a, b) => b - a).forEach(year => {
+    const list = el("ul", { class: "pubs" });
+    byYear[year].forEach((p, i) => list.append(pubItem(p, "bib-" + year + "-" + i)));
+    $("pubs").append(el("div", { class: "year" }, el("h3", {}, year), list));
+  });
+  SITE.underReview.forEach((p, i) => $("review").append(pubItem(Object.assign({ findable: false }, p), "rev-" + i)));
+  SITE.patents.forEach((p, i) => $("patents").append(pubItem(Object.assign({ findable: false }, p), "pat-" + i)));
+
+  SITE.projects.forEach(pr => {
+    const actions = el("div", { class: "actions" }, (pr.links || []).map(l => linkEl(l.label, l.url)));
+    $("project-list").append(el("li", { class: "project" }, el("h3", {}, pr.title), el("p", {}, pr.text), actions));
+  });
+
+  SITE.experience.forEach(x => $("exp").append(el("li", {},
+    el("span", { class: "when" }, x.when),
+    el("span", {}, x.what, el("span", { class: "where" }, x.where)))));
+  SITE.awards.forEach(a => $("award-list").append(el("li", {}, a)));
+
+  const email = SITE.links.find(l => l.url.startsWith("mailto:"));
+  $("contact").append(
+    "Interested in collaborating on speech AI, edge hardware or circuit design? ",
+    email ? linkEl("Email me", email.url) : "",
+    el("br"), "© " + new Date().getFullYear() + " " + SITE.name
+  );
+})();
+</script>
+</body>
+</html>
